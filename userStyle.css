@@ -1,0 +1,51 @@
+  #content, #authorize-button, #signout-button {display: none;}
+  html{background-color: #ededed;width: 100%;}
+  body{width: 100%;}
+  .login{width: 22%;margin-left: 39%;top: 30%;position: fixed;}
+  #example{ width: 600px;  margin: 5em auto;  padding: 50px;  background-color: #fff;  border-radius: 1em; }
+  #msg{ text-align: center; }
+ .save{ display: none; }  
+  #container{ align-content: center; }
+  #avatar{border-radius: 50%;}
+  a.none:nth-child(1){ font-size: 1.2em; text-decoration: none; color: lightblue;}
+  a.none:nth-child(2){ font-size: 1.2em; text-decoration: none; color: pink;}
+  a.none:nth-child(3){ font-size: 1.2em; text-decoration: none; color: lightgreen;}
+  
+  a.disabled { pointer-events: none; }
+  a.dropdown-item, a.nav-link{ cursor: pointer; }
+  #load{ position: fixed; height: 100%; top: 0px; left: 0px; width: 100%; background: ; background-color: ; background: url("https://thumbs.gfycat.com/LameDifferentBalloonfish-small.gif") no-repeat #eeeeee center; z-index: 100; }  
+  #postIcon{ position: fixed; right:0px; cursor: pointer;  }
+  #postIcon:hover{ transition-duration: 1s; transform: scale(1.1) translateX(-10px); }
+  .hint {
+    cursor: pointer;
+  }
+  .hint:hover{
+    background-color: #dddddd;
+  }
+  @media(max-width:1000px){.login{width: 50%;  margin-left: 25%; }}
+  
+  
+
+  /*
+body {
+        width: 100wh;
+        
+        color: #fff;
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400% 400%;
+        animation: Gradient 15s ease infinite;
+      }
+
+      @keyframes Gradient {
+        0% {
+          background-position: 0% 50%
+        }
+        50% {
+          background-position: 100% 50%
+        }
+        100% {
+          background-position: 0% 50%
+        }
+      }
+
+  */

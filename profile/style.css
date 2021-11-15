@@ -1,0 +1,23 @@
+ .card {
+  max-width: 40%;
+  margin: auto;
+  color:dimgray;
+  border-radius: 2%;
+}
+
+.title {
+  color: dimgray;
+  font-size: 20px;
+  text-align: center;
+}
+
+.center {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.body{
+  margin-left: 20%;
+}

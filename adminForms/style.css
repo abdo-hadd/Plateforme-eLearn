@@ -1,0 +1,19 @@
+ul.nav{
+	color : dodgerblue;
+}
+li.nav-item >.disabled {
+	color: tomato;
+}
+h5.card-title {
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+.card-body{
+	min-height: 300px;;
+}
+li.hint{
+	height: 20px;
+	font-size: 15px;
+	padding-bottom: 5%;
+	padding-top:1px;
+}
